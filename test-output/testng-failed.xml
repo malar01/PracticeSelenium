@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestScripts.LoginTestExcel">
+      <class name="TestScripts.APITest">
         <methods>
-          <include name="loginDataFromExcel" invocation-numbers="0 1 2"/>
-          <include name="tearDown"/>
-          <include name="setUp"/>
+          <include name="verifyUserAPI"/>
         </methods>
-      </class> <!-- TestScripts.LoginTestExcel -->
+      </class> <!-- TestScripts.APITest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
