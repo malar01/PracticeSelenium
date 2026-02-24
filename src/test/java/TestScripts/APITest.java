@@ -23,9 +23,12 @@ public class APITest {
 		//get status code
 		//This extracts HTTP status code from response.
 		int statusCode=response.getStatusCode();
+		
 		System.out.println("Status Code : "+ statusCode);
 		//Assertion
 		Assert.assertEquals(statusCode, 200);
+		String name=response.jsonPath().getString("name");
+		Assert.assertEquals(name, "Leanne Graham");
 		
 	}
 }

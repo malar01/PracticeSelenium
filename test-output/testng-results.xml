@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-20T17:21:31 GMT" name="Default suite" finished-at="2026-02-20T17:21:33 GMT" duration-ms="1965">
+  <suite started-at="2026-02-20T18:28:47 GMT" name="Default suite" finished-at="2026-02-20T18:28:50 GMT" duration-ms="2508">
     <groups>
     </groups>
-    <test started-at="2026-02-20T17:21:31 GMT" name="Default test" finished-at="2026-02-20T17:21:33 GMT" duration-ms="1965">
+    <test started-at="2026-02-20T18:28:47 GMT" name="Default test" finished-at="2026-02-20T18:28:50 GMT" duration-ms="2508">
       <class name="TestScripts.APITest">
-        <test-method signature="verifyUserAPI()[pri:0, instance:TestScripts.APITest@3b69e7d1]" started-at="2026-02-20T17:21:31 GMT" name="verifyUserAPI" finished-at="2026-02-20T17:21:33 GMT" duration-ms="1909" status="PASS">
+        <test-method signature="verifyUserAPI()[pri:0, instance:TestScripts.APITest@38425407]" started-at="2026-02-20T18:28:47 GMT" name="verifyUserAPI" finished-at="2026-02-20T18:28:50 GMT" duration-ms="2457" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyUserAPI -->
